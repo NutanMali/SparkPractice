@@ -1,0 +1,9 @@
+import org.apache.spark.sql.SparkSession
+
+ MyClass {
+    def add(x:Int, y:Int) = x + y;
+
+    def main(args: Array[String]) {
+        print("sum of x + y = " + add(25,10));
+    }
+}
